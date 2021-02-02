@@ -1,0 +1,55 @@
+body {
+    background-color: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Courier New', Courier, monospaces;
+}
+
+#main {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-size: 20px;
+}
+
+#img-div {
+    background-color: #FFFFFF;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    }
+
+#image {
+    max-width: 100%;
+    display: block;
+}
+
+#img-caption {
+    margin-top: 10px;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+}
+
+h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#tribute-info p {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#tribute-link {
+    font-weight: bolder;
+}
